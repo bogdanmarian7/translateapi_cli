@@ -18,6 +18,6 @@ setup(
             'translate-cli=src.run:main',
         ]
 
-    }
-
+    },
+    install_requires=["requests"]
 )
